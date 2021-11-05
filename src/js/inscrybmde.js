@@ -13,7 +13,6 @@ require('codemirror/mode/xml/xml.js');
 var CodeMirrorSpellChecker = require('codemirror-spell-checker');
 var marked = require('marked');
 
-
 // Some variables
 var isMac = /Mac/.test(navigator.platform);
 
@@ -1501,7 +1500,7 @@ InscrybMDE.prototype.markdown = function (text) {
 
 
         // Return
-        return marked(text);
+        return marked.parse(text);
     }
 };
 
