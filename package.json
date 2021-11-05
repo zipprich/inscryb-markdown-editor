@@ -14,7 +14,7 @@
     "license": "MIT",
     "author": "Christopher Wharton",
     "bugs": {
-        "url": "https://github.com/inscryb/inscryb-markdown-editor/issues"
+        "url": "https://github.com/zipprich/inscryb-markdown-editor/issues"
     },
     "dependencies": {
         "codemirror": "5.63.3",
